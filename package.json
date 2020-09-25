@@ -1,0 +1,24 @@
+{
+  "name": "git_test",
+  "version": "1.0.0",
+  "description": "this is a test directory to learn git and node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shwetal3/node.git"
+  },
+  "author": "shwetal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shwetal3/node/issues"
+  },
+  "homepage": "https://github.com/shwetal3/node#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
